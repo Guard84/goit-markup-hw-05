@@ -22,17 +22,19 @@ body {
 
 h1,
 h2,
-h3 {
-  margin: 0;
-}
-
+h3,
+h4,
+h5,
+h6,
 p {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-left: 0;
 }
 
@@ -42,10 +44,12 @@ a {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
-  max-width: 1158px;
+  max-width: 1128px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -68,6 +72,10 @@ img {
   margin-bottom: 72px;
 }
 
+label {
+  display: flex;
+  flex-direction: column;
+}
 /* хедер */
 
 .page-header {
@@ -216,6 +224,12 @@ img {
   background-color: var(--pressed-state-ocean);
 }
 
+.form-order {
+  display: flex;
+  flex-direction: column;
+  width: 408px;
+}
+
 /* секція 2 */
 
 .visually-hidden {
@@ -234,6 +248,7 @@ img {
 .card-item {
   display: flex;
   gap: 24px;
+  flex-shrink: 0;
 }
 
 .list-title {
@@ -344,6 +359,7 @@ img {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
+  flex-shrink: 0;
 }
 
 .list-title-portfolio {
@@ -482,4 +498,53 @@ img {
 .social-icon-footer-item:hover,
 .social-icon-footer-item:focus {
   background-color: var(--sucess-green);
+}
+
+.form-footer {
+  margin-left: 80px;
+}
+
+.input {
+  background-color: var(--dark-navy-blue);
+  border: 1px solid var(--white-background);
+  color: var(--light-cloud);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  width: 264px;
+  height: 40px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-right: 24px;
+  flex-shrink: 0;
+}
+
+.input::placeholder {
+  color: var(--white-background);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+
+.input-style {
+  display: flex;
+}
+
+.footer-button {
+  display: flex;
+  gap: 16px;
+  background-color: var(--primary-brand-iris);
+  color: var(--white-background);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 8px 24px;
+}
+
+.icon-color {
+  fill: var(--white-background)
 }
