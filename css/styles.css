@@ -595,11 +595,11 @@ img {
 }
 
 .input-hero:focus + svg {
-	fill: var(--primary-brand-iris);
+	fill: #4D5AE5;;
 }
 
 .input-hero:focus {
-	border-color: var(--primary-brand-iris);
+	border-color: #4D5AE5;
 }
 
 .form-comment {
@@ -624,7 +624,7 @@ img {
 }
 
 .textarea:focus {
-	border-color: var(--primary-brand-iris);
+	border-color: #4D5AE5;;
 }
 
 .label-input {
@@ -663,13 +663,14 @@ img {
 
 .close-form:hover,
 .close-form:focus {
-	background-color: var(--pressed-state-ocean);
+	background-color: #404bbf;
 	border: none;
 }
 
 .close-form:hover .close-icon,
 .close-form:focus .close-icon {
-	fill: var(--white-background);
+	fill: #ffffff;
+	border: none;
 }
 
 .close-icon {
@@ -726,9 +727,10 @@ img {
 }
 
 .input-checkbox:checked + .label-checkbox > .span-checkbox {
+	background-color: var(--primary-brand-iris);
 	border: none;
 	fill: var(--light-cloud);
-	background-color: var(--primary-brand-iris);
+	
 }
 
 .form-link {
