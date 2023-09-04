@@ -674,7 +674,6 @@ label {
 	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .form-text {
 	font-weight: 500;
 	font-size: 16px;
@@ -722,9 +721,10 @@ label {
 	overflow: hidden;
 }
 
-.form-checkbox:checked + .label-checkbox > .span-checkbox {
+.input-checkbox:checked + .label-checkbox > .span-checkbox {
 	border: none;
 	fill: var(--light-cloud);
+	background-color: var(--primary-brand-iris);
 }
 
 .form-link {
