@@ -727,7 +727,7 @@ img {
 }
 
 .input-checkbox:checked + .label-checkbox > .span-checkbox {
-	background-color: #404bbf;;
+	background-color: var(--primary-brand-iris);
 	border: none;
 	fill: var(--light-cloud);
 }
