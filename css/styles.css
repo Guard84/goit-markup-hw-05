@@ -727,10 +727,9 @@ img {
 }
 
 .input-checkbox:checked + .label-checkbox > .span-checkbox {
-	background-color: var(--primary-brand-iris);
+	background-color: #404bbf;;
 	border: none;
 	fill: var(--light-cloud);
-	
 }
 
 .form-link {
