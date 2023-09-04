@@ -500,7 +500,7 @@ img {
 .input {
 	background-color: transparent;
 	border: 1px solid var(--white-background);
-	color: var(--light-cloud);
+	color: #ffffff;;
 	border-radius: 4px;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 	width: 264px;
@@ -513,7 +513,7 @@ img {
 }
 
 .input::placeholder {
-	color: var(--white-background);
+	color: #ffffff;;
 }
 
 .input-style {
@@ -545,11 +545,11 @@ img {
 
 /* MODAL */
 
-.is-hidden {
+/* .is-hidden {
 	opacity: 0;
 	pointer-events: none;
 	visibility: hidden;
-}
+} */
 
 .backdrop {
 	position: fixed;
@@ -594,7 +594,7 @@ img {
 	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-hero:focus + svg {
+.input-hero:focus + .svg-hero {
 	fill: #4D5AE5;;
 }
 
