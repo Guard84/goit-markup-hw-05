@@ -72,10 +72,10 @@ img {
 	margin-bottom: 72px;
 }
 
-label {
+/* label {
 	display: flex;
 	flex-direction: column;
-}
+} */
 /* хедер */
 
 .page-header {
@@ -219,13 +219,6 @@ label {
 .hero-button:focus {
 	background-color: var(--pressed-state-ocean);
 }
-
-/* .input-hero::placeholder {
-	background-image: url("../images/icons.svg#icon-person-black");
-	background-size: 18px 18px;
-	background-repeat: no-repeat;
-	background-position: left center;
-} */
 
 /* секція 2 */
 
@@ -495,6 +488,10 @@ label {
 	background-color: var(--sucess-green);
 }
 
+.div-footer {
+	margin-left: 80px;
+}
+
 .form-footer {
 	display: flex;
 	gap: 24px;
@@ -509,7 +506,6 @@ label {
 	width: 264px;
 	height: 40px;
 	padding-left: 16px;
-	margin-right: 24px;
 	flex-shrink: 0;
 	font-size: 12px;
 	line-height: 1.5;
@@ -548,6 +544,12 @@ label {
 }
 
 /* MODAL */
+
+.is-hidden {
+	opacity: 0;
+	pointer-events: none;
+	visibility: hidden;
+}
 
 .backdrop {
 	position: fixed;
@@ -699,6 +701,7 @@ label {
 	align-items: center;
 	justify-content: center;
 	fill: transparent;
+	margin-right: 8px;
 }
 
 .label-checkbox {
@@ -706,6 +709,7 @@ label {
 	line-height: 1.17;
 	letter-spacing: 0.04em;
 	color: var(--subtle-text-light-slate);
+	position: relative;
 }
 
 .input-checkbox .visually-hidden {
@@ -729,7 +733,6 @@ label {
 
 .form-link {
 	color: var(--primary-brand-iris);
-	text-decoration: underline;
 }
 
 .form-button {
