@@ -729,6 +729,7 @@ label {
 
 .form-link {
 	color: var(--primary-brand-iris);
+	text-decoration: underline;
 }
 
 .form-button {
