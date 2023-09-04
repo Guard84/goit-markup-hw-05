@@ -727,7 +727,7 @@ img {
 }
 
 .input-checkbox:checked + .label-checkbox > .span-checkbox {
-	background-color: var(--primary-brand-iris);
+	background-color: var(--pressed-state-ocean);
 	border: none;
 	fill: var(--light-cloud);
 }
