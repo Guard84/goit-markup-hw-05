@@ -665,14 +665,15 @@ label {
 	border: none;
 }
 
+.close-form:hover .close-icon,
+.close-form:focus .close-icon {
+	fill: var(--white-background);
+}
+
 .close-icon {
 	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-icon:hover,
-.close-icon:focus {
-	color: var(--white-background);
-}
 
 .form-text {
 	font-weight: 500;
